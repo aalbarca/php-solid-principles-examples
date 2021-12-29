@@ -1,0 +1,21 @@
+{
+    "name": "netflie/php-solid-principles-examples",
+    "description": "SOLID Principles examples in PHP",
+    "type": "project",
+    "require": {
+        "php": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alejandro Albarca",
+            "email": "alex@albarca.es"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+          "Netflie\\": "src/"
+        }
+    },
+    "minimum-stability": "RC"
+}
