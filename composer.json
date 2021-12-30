@@ -17,5 +17,13 @@
           "Netflie\\": "src/"
         }
     },
-    "minimum-stability": "RC"
+    "autoload-dev": {
+        "psr-4": {
+          "Netflie\\Tests\\": "tests"
+        }
+      },
+    "minimum-stability": "RC",
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    }
 }
